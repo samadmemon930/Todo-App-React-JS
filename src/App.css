@@ -1,0 +1,110 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Container styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Input section */
+.inputTask {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.inputTask input {
+  width: 80%;
+  padding: 10px;
+  font-size: 22px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.inputTask button {
+  padding: 10px 15px;
+  font-size: 22px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inputTask button:hover {
+  background-color: #adb9ae;
+}
+
+
+.taskData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.taskData h1 {
+  font-size: 24px;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.taskData i {
+  font-size: 26px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.taskData i:hover {
+  color: #ff6347; 
+}
+
+
+#editIcon {
+  color: #4CAF50;
+}
+
+#deleteIcon {
+  color: #f44336;
+}
+
+#editIcon:hover {
+  color: #45a049;
+}
+
+#deleteIcon:hover {
+  color: #e53935;
+}
+
+
+.Btn{
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+  margin: 100px;
+  padding: 20px;
+  border: 1px solid palevioletred;
+  border-radius: 20px;
+  border-bottom: 1px solid palevioletred;
+  border-right: 1px solid #fa0000;
+  cursor: pointer;
+  border-left: 1px solid #ff0000;
+}
